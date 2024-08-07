@@ -136,9 +136,7 @@ const CartDetails = () => {
                             </div>
                           </td>
                           <td>
-                            <div className="product-name">
-                              <p>{data.dish}</p>
-                            </div>
+                          {data.dish}
                           </td>
                           <td>{data.price}</td>
                           <td>
