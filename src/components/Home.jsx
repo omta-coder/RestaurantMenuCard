@@ -20,7 +20,7 @@ const Home = () => {
     <>
       <section className="iteam_section mt-4 container">
         <h2 className="px-4" style={{ fontWeight: 400 }}>
-          Restaurants in Ahmedabad Open now
+          Restaurants in Bhopal Open now
         </h2>
         <div className="row mt-2 d-flex justify-content-around align-items-center">
           {cartdata.map((elem, index) => {
@@ -45,7 +45,7 @@ const Home = () => {
                   <div className="extra"></div>
 
                   <div className="last_data d-flex justify-content-between align-items-center">
-                    <img src={elem.arrimg} className="limg" alt="" />
+                    {/* <img src={elem.arrimg} className="limg" alt="" /> */}
                     <Button
                       style={{
                         width: "150px",
@@ -58,7 +58,7 @@ const Home = () => {
                     >
                       Add TO Cart
                     </Button>
-                    <img src={elem.delimg} className="laimg" alt="" />
+                    {/* <img src={elem.delimg} className="laimg" alt="" /> */}
                   </div>
                 </div>
               </Card>
